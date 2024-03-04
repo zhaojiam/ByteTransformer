@@ -1,0 +1,442 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          1925
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          2080
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          2099
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          4308
+    Length:          0
+    ReplacementText: "/*\n      DPCT1053:107: Migration of device assembly code is not supported.\n      */\n      "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          5502
+    Length:          0
+    ReplacementText: "/*\n      DPCT1053:108: Migration of device assembly code is not supported.\n      */\n      "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          6365
+    Length:          0
+    ReplacementText: ', sycl::uint4 OOB_NAN_F16x8'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          6408
+    Length:          140
+    ReplacementText: ''
+    ConstantFlag:    DeviceConstant
+    ConstantOffset:  6415
+    InitStr:         "{0x7eff7eff, 0x7eff7eff,\n                                                 0x7eff7eff, 0x7eff7eff}"
+    NewHostVarName:  OOB_NAN_F16x8_host_ct1
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          6623
+    Length:          0
+    ReplacementText: "/*\n      DPCT1053:109: Migration of device assembly code is not supported.\n      */\n      "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7090
+    Length:          15
+    ReplacementText: 'OOB_NAN_F16x8.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7112
+    Length:          15
+    ReplacementText: 'OOB_NAN_F16x8.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7134
+    Length:          15
+    ReplacementText: 'OOB_NAN_F16x8.z()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7168
+    Length:          15
+    ReplacementText: 'OOB_NAN_F16x8.w()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7541
+    Length:          0
+    ReplacementText: ", sycl::uint2 DIAG_DATA_DOUBLE_ONE, uint32_t DIAG_DATA_FLOAT_ONE,\n                uint32_t DIAG_DATA_ZERO"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7658
+    Length:          74
+    ReplacementText: ''
+    ConstantFlag:    DeviceConstant
+    ConstantOffset:  7665
+    InitStr:         '{0x3ff00000, 0x00000000}'
+    NewHostVarName:  DIAG_DATA_DOUBLE_ONE_host_ct1
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7739
+    Length:          61
+    ReplacementText: ''
+    ConstantFlag:    DeviceConstant
+    ConstantOffset:  7746
+    InitStr:         '{0x3f800000}'
+    NewHostVarName:  DIAG_DATA_FLOAT_ONE_host_ct1
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          7807
+    Length:          56
+    ReplacementText: ''
+    ConstantFlag:    DeviceConstant
+    ConstantOffset:  7814
+    InitStr:         '{0x00000000}'
+    NewHostVarName:  DIAG_DATA_ZERO_host_ct1
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8004
+    Length:          0
+    ReplacementText: "/*\n        DPCT1053:110: Migration of device assembly code is not supported.\n        */\n        "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8133
+    Length:          22
+    ReplacementText: 'DIAG_DATA_DOUBLE_ONE.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8162
+    Length:          22
+    ReplacementText: 'DIAG_DATA_DOUBLE_ONE.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8213
+    Length:          16
+    ReplacementText: DIAG_DATA_ZERO
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8236
+    Length:          16
+    ReplacementText: DIAG_DATA_ZERO
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8334
+    Length:          0
+    ReplacementText: "/*\n        DPCT1053:111: Migration of device assembly code is not supported.\n        */\n        "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8455
+    Length:          21
+    ReplacementText: DIAG_DATA_FLOAT_ONE
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8483
+    Length:          16
+    ReplacementText: DIAG_DATA_ZERO
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8573
+    Length:          0
+    ReplacementText: "/*\n        DPCT1053:112: Migration of device assembly code is not supported.\n        */\n        "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8694
+    Length:          22
+    ReplacementText: 'DIAG_DATA_DOUBLE_ONE.y()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8722
+    Length:          22
+    ReplacementText: 'DIAG_DATA_DOUBLE_ONE.x()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8817
+    Length:          0
+    ReplacementText: "/*\n        DPCT1053:113: Migration of device assembly code is not supported.\n        */\n        "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          8929
+    Length:          21
+    ReplacementText: DIAG_DATA_FLOAT_ONE
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          9379
+    Length:          0
+    ReplacementText: ', uint32_t DIAG_DATA_ZERO'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          9496
+    Length:          56
+    ReplacementText: ''
+    ConstantFlag:    DeviceConstant
+    ConstantOffset:  9503
+    InitStr:         '{0x00000000}'
+    NewHostVarName:  DIAG_DATA_ZERO_host_ct1
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          9693
+    Length:          0
+    ReplacementText: "/*\n        DPCT1053:114: Migration of device assembly code is not supported.\n        */\n        "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          9814
+    Length:          16
+    ReplacementText: DIAG_DATA_ZERO
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          9837
+    Length:          16
+    ReplacementText: DIAG_DATA_ZERO
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          9935
+    Length:          0
+    ReplacementText: "/*\n        DPCT1053:115: Migration of device assembly code is not supported.\n        */\n        "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          10047
+    Length:          16
+    ReplacementText: DIAG_DATA_ZERO
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          10854
+    Length:          0
+    ReplacementText: "/*\n      DPCT1053:105: Migration of device assembly code is not supported.\n      */\n      "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          12012
+    Length:          0
+    ReplacementText: "/*\n      DPCT1053:106: Migration of device assembly code is not supported.\n      */\n      "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          12899
+    Length:          0
+    ReplacementText: "/*\n  DPCT1053:116: Migration of device assembly code is not supported.\n  */\n  "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          13232
+    Length:          0
+    ReplacementText: "/*\n  DPCT1053:117: Migration of device assembly code is not supported.\n  */\n  "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Offset:          13460
+    Length:          0
+    ReplacementText: "/*\n  DPCT1053:118: Migration of device assembly code is not supported.\n  */\n  "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/memory_sm80.h'
+    Digest:          11e18d7eb92a1daa7127387f16a47354
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

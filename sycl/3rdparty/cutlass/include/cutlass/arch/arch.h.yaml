@@ -1,0 +1,154 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/3rdparty/cutlass/include/cutlass/arch/arch.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          0
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          2074
+    Length:          8
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          2118
+    Length:          8
+    ReplacementText: SYCL_LANGUAGE_VERSION
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          2190
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          2207
+    Length:          44
+    ReplacementText: 'ret = item_ct1.get_sub_group().get_local_linear_id();'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          2251
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          2359
+    Length:          0
+    ReplacementText: "/*\n  DPCT1053:58: Migration of device assembly code is not supported.\n  */\n  "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          3139
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Offset:          3156
+    Length:          0
+    ReplacementText: "/*\n  DPCT1053:59: Migration of device assembly code is not supported.\n  */\n  "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/arch/arch.h'
+    Digest:          e7b6a5cf853ff7c9f8a968895c6fcd71
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

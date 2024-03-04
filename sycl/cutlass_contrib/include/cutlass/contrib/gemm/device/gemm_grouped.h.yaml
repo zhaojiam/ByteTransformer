@@ -1,0 +1,478 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          2048
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          2171
+    Length:          0
+    ReplacementText: "\n#include <cmath>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          3113
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          3169
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          3339
+    Length:          0
+    ReplacementText: ' try '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          3616
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:611: Migration of cudaOccupancyMaxActiveBlocksPerMultiprocessor is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          3622
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          3799
+    Length:          11
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4029
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:612: Migration of cudaOccupancyMaxActiveBlocksPerMultiprocessor is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4035
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4190
+    Length:          210
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4478
+    Length:          26
+    ReplacementText: 'DPCT_CHECK_ERROR(device_idx = dpct::dev_mgr::instance().current_device_id())'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4515
+    Length:          59
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4584
+    Length:          14
+    ReplacementText: 'dpct::device_info'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4628
+    Length:          48
+    ReplacementText: 'DPCT_CHECK_ERROR(dpct::get_device_info(properties, dpct::dev_mgr::instance().get_device(device_idx)))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4687
+    Length:          59
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4748
+    Length:          0
+    ReplacementText: "        /*\n        DPCT1019:609: local_mem_size in SYCL is not a complete equivalent of sharedMemPerMultiprocessor in CUDA. You may need to adjust the code.\n        */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          4800
+    Length:          26
+    ReplacementText: 'get_local_mem_size()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5078
+    Length:          0
+    ReplacementText: "\n  catch (sycl::exception const &exc) {\n    std::cerr << exc.what() << \"Exception caught at file:\" << __FILE__ << \", line:\" << __LINE__ << std::endl;\n    std::exit(1);\n  }"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5215
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5237
+    Length:          7
+    ReplacementText: '&dpct::get_in_order_queue()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5246
+    Length:          0
+    ReplacementText: ' try '
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5827
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1027:613: The call to cudaFuncSetAttribute was replaced with 0 because SYCL currently does not support corresponding setting.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5833
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5854
+    Length:          107
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          5970
+    Length:          75
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6085
+    Length:          0
+    ReplacementText: "\n  catch (sycl::exception const &exc) {\n    std::cerr << exc.what() << \"Exception caught at file:\" << __FILE__ << \", line:\" << __LINE__ << std::endl;\n    std::exit(1);\n  }"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6486
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6508
+    Length:          7
+    ReplacementText: '&dpct::get_in_order_queue()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6669
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6679
+    Length:          31
+    ReplacementText: 1, 1, params_.threadblock_count
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6717
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6728
+    Length:          30
+    ReplacementText: '1, 1, GemmKernel::kThreadCount'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6762
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1083:361: The size of local memory in the migrated code may be different from the original code. Check that the allocated memory size in the migrated code is correct.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6882
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1049:360: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6886
+    Length:          72
+    ReplacementText: "{\n      dpct::has_capability_or_fail(stream->get_device(), {sycl::aspect::fp64, sycl::aspect::fp16});\n\n      stream->submit(\n        [&](sycl::handler &cgh) {\n          sycl::local_accessor<uint8_t, 1> dpct_local_acc_ct1(sycl::range<1>(smem_size), cgh);\n\n          auto params__ct0 = params_;\n\n          cgh.parallel_for(\n            sycl::nd_range<3>(grid * block, block), \n            [=](sycl::nd_item<3> item_ct1) [[intel::reqd_sub_group_size(32)]] {\n              cutlass::Kernel<GemmKernel>(params__ct0, item_ct1, dpct_local_acc_ct1.get_multi_ptr<sycl::access::decorated::no>().get());\n            });\n        });\n    }"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6958
+    Length:          1
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          6999
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1010:610: SYCL uses exceptions to report errors and does not use the error codes. The call was replaced with 0. You need to rewrite this code.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          7003
+    Length:          11
+    ReplacementText: 'dpct::err0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          7024
+    Length:          18
+    ReplacementText: '0'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          7049
+    Length:          163
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          7315
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          7337
+    Length:          7
+    ReplacementText: '&dpct::get_in_order_queue()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          7514
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Offset:          7536
+    Length:          7
+    ReplacementText: '&dpct::get_in_order_queue()'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/device/gemm_grouped.h'
+    Digest:          a0fdc83e3db7702a3b4d44fe8ce1f967
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

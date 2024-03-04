@@ -1,0 +1,838 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          1969
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2565
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2578
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2703
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2716
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2841
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2854
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2978
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          2991
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3114
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3127
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3250
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3263
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3386
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3399
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3522
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3535
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3658
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          3671
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          5615
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          5724
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          6323
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          6378
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          6426
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          6474
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          6804
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          6885
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          6933
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          7073
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          7211
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          7954
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          8016
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          8350
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          8411
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          8443
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          8475
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9173
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9235
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9569
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9630
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9662
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9694
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9841
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9896
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9944
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          9992
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          10244
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          10288
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          11387
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          11496
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          11718
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          11773
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          11821
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          11869
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          12199
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          12280
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          12328
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          12468
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          12606
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          13291
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          13353
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          13678
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          13739
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          13771
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          13803
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          13959
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          14020
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          14052
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          14084
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          14864
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          14933
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15269
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15363
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15395
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15427
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15570
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15664
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15696
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15728
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15817
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15861
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15942
+    Length:          0
+    ReplacementText: 'const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          15986
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          16011
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Offset:          16039
+    Length:          0
+    ReplacementText: item_ct1
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/gemm/threadblock/threadblock_swizzle.h'
+    Digest:          3a024a29bc789886d989b798fe88e504
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

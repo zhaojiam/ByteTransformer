@@ -1,0 +1,847 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/cutlass_contrib/include/cutlass/contrib/functional.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          878
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1674
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1693
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1720
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1759
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1784
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1824
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1850
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1890
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1916
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          1956
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2065
+    Length:          37
+    ReplacementText: 'sycl::fma(a_ptr[i], b_ptr[i], c_ptr[i])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2134
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2182
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2209
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2257
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2284
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2332
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2360
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2390
+    Length:          75
+    ReplacementText: 'sycl::fma(a_residual_ptr[N - 1], b_residual_ptr[N - 1], c_residual_ptr[N - 1])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2920
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2939
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          2966
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3005
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3030
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3047
+    Length:          49
+    ReplacementText: 'sycl::half2(reinterpret_cast<sycl::half const &>(a))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3102
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3142
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3168
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3208
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3317
+    Length:          35
+    ReplacementText: 'sycl::fma(a_pair, b_ptr[i], c_ptr[i])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3384
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3432
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3459
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3507
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3534
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          3554
+    Length:          122
+    ReplacementText: 'sycl::fma(reinterpret_cast<sycl::half const &>(a), b_residual_ptr[N - 1], c_residual_ptr[N - 1])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4139
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4158
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4185
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4224
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4249
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4289
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4315
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4332
+    Length:          49
+    ReplacementText: 'sycl::half2(reinterpret_cast<sycl::half const &>(b))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4387
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4427
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4536
+    Length:          35
+    ReplacementText: 'sycl::fma(a_ptr[i], b_pair, c_ptr[i])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4603
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4651
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4678
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4726
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4754
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          4774
+    Length:          122
+    ReplacementText: 'sycl::fma(a_residual_ptr[N - 1], reinterpret_cast<sycl::half const &>(b), c_residual_ptr[N - 1])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5348
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5367
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5394
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5433
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5458
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5498
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5524
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5564
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5590
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5607
+    Length:          49
+    ReplacementText: 'sycl::half2(reinterpret_cast<sycl::half const &>(c))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5745
+    Length:          35
+    ReplacementText: 'sycl::fma(a_ptr[i], b_ptr[i], c_pair)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5812
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5860
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5887
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5935
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5963
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          5983
+    Length:          122
+    ReplacementText: 'sycl::fma(a_residual_ptr[N - 1], b_residual_ptr[N - 1], reinterpret_cast<sycl::half const &>(c))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6517
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6536
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6563
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6602
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6627
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6667
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6693
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6710
+    Length:          49
+    ReplacementText: 'sycl::half2(reinterpret_cast<sycl::half const &>(b))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6765
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6782
+    Length:          49
+    ReplacementText: 'sycl::half2(reinterpret_cast<sycl::half const &>(c))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6920
+    Length:          33
+    ReplacementText: 'sycl::fma(a_ptr[i], b_pair, c_pair)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          6985
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          7033
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          7061
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Offset:          7081
+    Length:          136
+    ReplacementText: 'sycl::fma(a_residual_ptr[N - 1], reinterpret_cast<sycl::half const &>(b), reinterpret_cast<sycl::half const &>(c))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/functional.h'
+    Digest:          1be339936ea5f5193d10b53fd8a20fd9
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

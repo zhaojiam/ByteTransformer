@@ -1,0 +1,181 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/3rdparty/cutlass/include/cutlass/bfloat16.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          0
+    Length:          0
+    ReplacementText: "#define DPCT_COMPAT_RT_MAJOR_VERSION 12\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          2032
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          2830
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          2849
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          2875
+    Length:          20
+    ReplacementText: DPCT_COMPAT_RT_MAJOR_VERSION
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          2908
+    Length:          0
+    ReplacementText: "/*\n    DPCT1053:57: Migration of device assembly code is not supported.\n    */\n    "
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          3914
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          4218
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          6843
+    Length:          19
+    ReplacementText: 'sycl::sqrt(float(h))'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          7001
+    Length:          26
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          7130
+    Length:          102
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Offset:          7391
+    Length:          0
+    ReplacementText: "\nCUTLASS_HOST_DEVICE\nbfloat16_t copysign_host_ct11(bfloat16_t const& a, bfloat16_t const& b) {\n\n  uint16_t a_bits;\n  uint16_t b_bits;\n\n  \n  std::memcpy(&a_bits, &a, sizeof(a_bits));\n  std::memcpy(&b_bits, &b, sizeof(b_bits));\n  \n\n  uint16_t a_mag = (a_bits & 0x7fff);  \n  uint16_t b_sign = (b_bits & 0x8000);\n  uint16_t result = (a_mag | b_sign);\n\n  return bfloat16_t::bitcast(result);\n}"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/3rdparty/cutlass/include/cutlass/bfloat16.h'
+    Digest:          398689fabaa0c667c5bc767451092278
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

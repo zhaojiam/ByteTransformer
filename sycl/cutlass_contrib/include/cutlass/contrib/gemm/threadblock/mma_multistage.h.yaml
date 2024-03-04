@@ -1,0 +1,163 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          1990
+    Length:          0
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          11800
+    Length:          0
+    ReplacementText: "  /*\n  DPCT1110:370: The total declared local variable size in device function operator() exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          12247
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          12638
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          16947
+    Length:          15
+    ReplacementText: "/*\n    DPCT1065:621: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n    */\n    item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          22528
+    Length:          0
+    ReplacementText: "          /*\n          DPCT1118:368: SYCL group functions and algorithms must be encountered in converged control flow. You may need to adjust the code.\n          */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          22538
+    Length:          15
+    ReplacementText: "/*\n          DPCT1065:622: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n          */\n          item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          24247
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          25735
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1118:369: SYCL group functions and algorithms must be encountered in converged control flow. You may need to adjust the code.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Offset:          25741
+    Length:          15
+    ReplacementText: "/*\n      DPCT1065:623: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n      */\n      item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/cutlass_contrib/include/cutlass/contrib/gemm/threadblock/mma_multistage.h'
+    Digest:          0d502cffe733e802d222e06ae362f5ee
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer'
+    Specified:       false
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

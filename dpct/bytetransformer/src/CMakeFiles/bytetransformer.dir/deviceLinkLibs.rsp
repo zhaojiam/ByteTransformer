@@ -1,0 +1,1 @@
+  -L/usr/local/cuda/lib  -lcublas -lcudart -lcudadevrt -lcudart_static -lrt -lpthread -ldl 
