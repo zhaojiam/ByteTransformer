@@ -1,0 +1,3088 @@
+---
+MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/sycl/include/variety_attention_fused.h'
+Replacements:
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          864
+    Length:          17
+    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          901
+    Length:          0
+    ReplacementText: "\n#include <cmath>\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1101
+    Length:          10
+    ReplacementText: "/*\nDPCT1110:72: The total declared local variable size in device function variety_wmma_attention_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1212
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1232
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1250
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1304
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1334
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1390
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1414
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1510
+    Length:          0
+    ReplacementText: ",\n                                  const sycl::nd_item<3> &item_ct1,\n                                  sycl::local_accessor<sycl::half, 2> s_kv,\n                                  sycl::local_accessor<sycl::half, 2> s_query,\n                                  sycl::local_accessor<sycl::half, 2> s_logits"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1518
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1541
+    Length:          23
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1567
+    Length:          63
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1633
+    Length:          66
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1702
+    Length:          65
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1793
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1833
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1918
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          1979
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2055
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2187
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2200
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2212
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2473
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:349: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2479
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2511
+    Length:          18
+    ReplacementText: 'query[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2531
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:350: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2537
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2566
+    Length:          16
+    ReplacementText: 'key[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2590
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:352: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2646
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:73: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:74: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:75: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2705
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2794
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::col_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          2886
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          3103
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:94: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          3236
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:95: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          3335
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:82: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          3393
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1007:93: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          3555
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:353: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4085
+    Length:          71
+    ReplacementText: '(attention_bias[(item_ct1.get_group(2) * seq_len + from_id) * seq_len + to_id[i]])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4203
+    Length:          0
+    ReplacementText: "            /*\n            DPCT1098:356: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n            */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4222
+    Length:          73
+    ReplacementText: 'attention_mask[(batch_seq_offset + from_id) * seq_len + to_id[i]]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4450
+    Length:          23
+    ReplacementText: 'sycl::max(max_val, logits[i])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4516
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4613
+    Length:          27
+    ReplacementText: 'sycl::native::exp(logits[i] - max_val)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4711
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4843
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4850
+    Length:          30
+    ReplacementText: 'logits[i] / sum_val'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4976
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:351: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          4982
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5021
+    Length:          18
+    ReplacementText: 'value[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5195
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:354: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5256
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:83: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:84: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:85: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5315
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5409
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5501
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5721
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:97: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5858
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:98: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          5957
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:92: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6022
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1007:96: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6186
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:355: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6359
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6398
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6511
+    Length:          10
+    ReplacementText: "/*\nDPCT1110:99: The total declared local variable size in device function variety_wmma_attention_rm_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6625
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6645
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6663
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6720
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6750
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6809
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6833
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6954
+    Length:          0
+    ReplacementText: ",\n                                     const sycl::nd_item<3> &item_ct1,\n                                     sycl::local_accessor<sycl::half, 2> s_kv,\n                                     sycl::local_accessor<sycl::half, 2> s_query,\n                                     sycl::local_accessor<sycl::half, 2> s_logits"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6962
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          6985
+    Length:          23
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7011
+    Length:          63
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7077
+    Length:          66
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7146
+    Length:          65
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7237
+    Length:          10
+    ReplacementText: 'item_ct1.get_local_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7277
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7362
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7423
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7468
+    Length:          0
+    ReplacementText: "  /*\n  DPCT1098:357: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7495
+    Length:          29
+    ReplacementText: 'batch_idx[item_ct1.get_group(1)]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7526
+    Length:          0
+    ReplacementText: "  /*\n  DPCT1098:358: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7554
+    Length:          33
+    ReplacementText: 'batch_idx[item_ct1.get_group(1) + 1]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7732
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7745
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          7757
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8024
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:359: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8030
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8062
+    Length:          18
+    ReplacementText: 'query[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8082
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:360: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8088
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8117
+    Length:          16
+    ReplacementText: 'key[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8141
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:362: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8197
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:100: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:101: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:102: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8256
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8345
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::col_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8437
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8654
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:121: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8787
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:122: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8886
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:109: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          8944
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1007:120: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          9106
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:363: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          9648
+    Length:          71
+    ReplacementText: '(attention_bias[(item_ct1.get_group(2) * seq_len + from_id) * seq_len + to_id[i]])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          9847
+    Length:          23
+    ReplacementText: 'sycl::max(max_val, logits[i])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          9913
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10010
+    Length:          27
+    ReplacementText: 'sycl::native::exp(logits[i] - max_val)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10108
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10240
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10247
+    Length:          30
+    ReplacementText: 'logits[i] / sum_val'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10373
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:361: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10379
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10418
+    Length:          18
+    ReplacementText: 'value[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10598
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:364: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10659
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:110: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:111: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:112: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10718
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10812
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          10904
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11124
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:124: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11261
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:125: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11360
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:119: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11425
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1007:123: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11589
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:365: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11764
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11803
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          11941
+    Length:          11
+    ReplacementText: "/*\nDPCT1110:126: The total declared local variable size in device function variety_wmma_attention_long_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12003
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12023
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12041
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12061
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12095
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12117
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12141
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12207
+    Length:          0
+    ReplacementText: ', const sycl::nd_item<3> &item_ct1, uint8_t *dpct_local'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12215
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12238
+    Length:          23
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12264
+    Length:          32
+    ReplacementText: 'auto base = (sycl::half *)dpct_local;'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12299
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12343
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12389
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12442
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12535
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12581
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12805
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12890
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          12951
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13028
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13081
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13137
+    Length:          46
+    ReplacementText: 'sycl::min(split_seq_len, seq_len - seq_block_offset)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13298
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13311
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13323
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13603
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:366: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13609
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13641
+    Length:          18
+    ReplacementText: 'query[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13895
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:367: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13901
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13930
+    Length:          16
+    ReplacementText: 'key[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          13954
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:369: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14010
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:127: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:128: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:129: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14069
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14158
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::col_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14250
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14467
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:148: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14600
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:149: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14699
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:136: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14757
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1007:147: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          14919
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:370: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          15542
+    Length:          121
+    ReplacementText: "(attention_bias[(item_ct1.get_group(2) * seq_len + split_seq_offset) * seq_len +\n                                         to_id[i]])"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          15689
+    Length:          0
+    ReplacementText: "        /*\n        DPCT1098:373: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          15717
+    Length:          95
+    ReplacementText: 'attention_mask[(batch_seq_offset + split_seq_offset) * seq_len + to_id[i]]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          15967
+    Length:          23
+    ReplacementText: 'sycl::max(max_val, logits[i])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16033
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16130
+    Length:          27
+    ReplacementText: 'sycl::native::exp(logits[i] - max_val)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16228
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16360
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16367
+    Length:          30
+    ReplacementText: 'logits[i] / sum_val'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16562
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:368: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16568
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16606
+    Length:          18
+    ReplacementText: 'value[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16780
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:371: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16841
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:137: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:138: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:139: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16900
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          16994
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          17086
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          17306
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:151: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          17443
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:152: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          17542
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:146: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          17607
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1007:150: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          17771
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:372: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          17969
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18008
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18146
+    Length:          11
+    ReplacementText: "/*\nDPCT1110:153: The total declared local variable size in device function variety_wmma_attention_long_rm_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18211
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18231
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18249
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18269
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18303
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18325
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18349
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18437
+    Length:          0
+    ReplacementText: ", const sycl::nd_item<3> &item_ct1,\n    uint8_t *dpct_local"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18445
+    Length:          13
+    ReplacementText: DPCT_COMPATIBILITY_TEMP
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18468
+    Length:          23
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18494
+    Length:          32
+    ReplacementText: 'auto base = (sycl::half *)dpct_local;'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18529
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18573
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18619
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18672
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18765
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          18811
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19035
+    Length:          11
+    ReplacementText: 'item_ct1.get_local_id(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19120
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19181
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19283
+    Length:          0
+    ReplacementText: "  /*\n  DPCT1098:374: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19314
+    Length:          29
+    ReplacementText: 'batch_idx[item_ct1.get_group(0)]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19345
+    Length:          0
+    ReplacementText: "  /*\n  DPCT1098:375: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19373
+    Length:          33
+    ReplacementText: 'batch_idx[item_ct1.get_group(0) + 1]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19458
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19514
+    Length:          52
+    ReplacementText: 'sycl::min(split_seq_len, batch_seq_len - seq_block_offset)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19785
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(2)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19798
+    Length:          9
+    ReplacementText: 'item_ct1.get_group_range(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          19810
+    Length:          10
+    ReplacementText: 'item_ct1.get_group(0)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20090
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:376: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20096
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20128
+    Length:          18
+    ReplacementText: 'query[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20388
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:377: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20394
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20423
+    Length:          16
+    ReplacementText: 'key[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20447
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:379: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20503
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:154: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:155: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:156: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20562
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20651
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::col_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          20743
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          21008
+    Length:          0
+    ReplacementText: "        /*\n        DPCT1007:175: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n        */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          21145
+    Length:          0
+    ReplacementText: "        /*\n        DPCT1007:176: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n        */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          21277
+    Length:          0
+    ReplacementText: "        /*\n        DPCT1007:163: Migration of nvcuda::wmma::mma_sync is not supported.\n        */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          21339
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:174: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          21511
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:380: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22140
+    Length:          121
+    ReplacementText: "(attention_bias[(item_ct1.get_group(2) * seq_len + split_seq_offset) * seq_len +\n                                         to_id[i]])"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22389
+    Length:          23
+    ReplacementText: 'sycl::max(max_val, logits[i])'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22455
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22552
+    Length:          27
+    ReplacementText: 'sycl::native::exp(logits[i] - max_val)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22650
+    Length:          0
+    ReplacementText: ', item_ct1'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22788
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22795
+    Length:          30
+    ReplacementText: 'logits[i] / sum_val'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          22996
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1098:378: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23002
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23040
+    Length:          18
+    ReplacementText: 'value[pos]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23226
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:381: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23287
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1082:164: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:165: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:166: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23346
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_a, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23440
+    Length:          77
+    ReplacementText: 'wmma::fragment<wmma::matrix_b, WMMA_M, WMMA_N, WMMA_K, sycl::half, wmma::row_major>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23532
+    Length:          63
+    ReplacementText: 'wmma::fragment<wmma::accumulator, WMMA_M, WMMA_N, WMMA_K, sycl::half>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23769
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:178: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          23906
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:179: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24005
+    Length:          0
+    ReplacementText: "      /*\n      DPCT1007:173: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24070
+    Length:          0
+    ReplacementText: "    /*\n    DPCT1007:177: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24234
+    Length:          15
+    ReplacementText: "/*\n  DPCT1065:382: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24432
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24471
+    Length:          7
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24526
+    Length:          0
+    ReplacementText: "/*\nDPCT1049:180: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24615
+    Length:          179
+    ReplacementText: "{\\\n  dpct::has_capability_or_fail(stream->get_device(), {sycl::aspect::fp16});\\\n\\\n  stream->submit(\\\n    [&](sycl::handler &cgh) {\\\n      sycl::local_accessor<sycl::half, 2> s_kv_acc_ct1(sycl::range<2>(SEQ_LEN, SIZE_PER_HEAD + SKEW_HALF), cgh);\\\n      sycl::local_accessor<sycl::half, 2> s_query_acc_ct1(sycl::range<2>(SEQ_LEN, SIZE_PER_HEAD + SKEW_HALF), cgh);\\\n      sycl::local_accessor<sycl::half, 2> s_logits_acc_ct1(sycl::range<2>(SEQ_LEN, SEQ_LEN + SKEW_HALF), cgh);\\\n\\\n      const sycl::half2 * query_ct0 = query;\\\n      const sycl::half2 * key_ct1 = key;\\\n      const sycl::half2 * value_ct2 = value;\\\n      const sycl::half * atten_mask_ct3 = atten_mask;\\\n      const sycl::half * qk_buf_ct4 = qk_buf;\\\n      const sycl::half * attention_bias_ct5 = attention_bias;\\\n      sycl::half * attention_output_ct6 = attention_output;\\\n      const int seq_len_ct7 = seq_len;\\\n      const float scale_ct8 = scale;\\\n\\\n      cgh.parallel_for(\\\n        sycl::nd_range<3>(grid * block, block), \\\n        [=](sycl::nd_item<3> item_ct1) [[intel::reqd_sub_group_size(32)]] {\\\n          variety_wmma_attention_kernel<SEQ_LEN, SIZE_PER_HEAD>(query_ct0, key_ct1, value_ct2, atten_mask_ct3, qk_buf_ct4, attention_bias_ct5, attention_output_ct6, seq_len_ct7, scale_ct8, item_ct1, s_kv_acc_ct1, s_query_acc_ct1, s_logits_acc_ct1);\\\n        });\\\n    });\\\n}"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24796
+    Length:          0
+    ReplacementText: "/*\nDPCT1049:181: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          24890
+    Length:          261
+    ReplacementText: "{\\\n  dpct::has_capability_or_fail(stream->get_device(), {sycl::aspect::fp16});\\\n\\\n  stream->submit(\\\n    [&](sycl::handler &cgh) {\\\n      sycl::local_accessor<sycl::half, 2> s_kv_acc_ct1(sycl::range<2>(SEQ_LEN, SIZE_PER_HEAD + SKEW_HALF), cgh);\\\n      sycl::local_accessor<sycl::half, 2> s_query_acc_ct1(sycl::range<2>(SEQ_LEN, SIZE_PER_HEAD + SKEW_HALF), cgh);\\\n      sycl::local_accessor<sycl::half, 2> s_logits_acc_ct1(sycl::range<2>(SEQ_LEN, SEQ_LEN + SKEW_HALF), cgh);\\\n\\\n      const sycl::half2 * query_ct0 = query;\\\n      const sycl::half2 * key_ct1 = key;\\\n      const sycl::half2 * value_ct2 = value;\\\n      const sycl::half * atten_mask_ct3 = atten_mask;\\\n      const sycl::half * qk_buf_ct4 = qk_buf;\\\n      const sycl::half * attention_bias_ct5 = attention_bias;\\\n      sycl::half * attention_output_ct6 = attention_output;\\\n      const int seq_len_ct7 = seq_len;\\\n      const float scale_ct8 = scale;\\\n      const int * batch_idx_ct9 = batch_idx;\\\n\\\n      cgh.parallel_for(\\\n        sycl::nd_range<3>(grid * block, block), \\\n        [=](sycl::nd_item<3> item_ct1) [[intel::reqd_sub_group_size(32)]] {\\\n          variety_wmma_attention_rm_kernel<SEQ_LEN, SIZE_PER_HEAD>(query_ct0, key_ct1, value_ct2, atten_mask_ct3, qk_buf_ct4, attention_bias_ct5, attention_output_ct6, seq_len_ct7, scale_ct8, batch_idx_ct9, item_ct1, s_kv_acc_ct1, s_query_acc_ct1, s_logits_acc_ct1);\\\n        });\\\n    });\\\n}"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          25153
+    Length:          0
+    ReplacementText: "/*\nDPCT1049:182: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n/*\nDPCT1026:383: The call to cudaFuncSetAttribute was removed because SYCL currently does not support corresponding setting.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          25657
+    Length:          176
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          25855
+    Length:          6
+    ReplacementText: 'grid[2]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          25874
+    Length:          6
+    ReplacementText: 'grid[1]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          25922
+    Length:          6
+    ReplacementText: 'grid[0]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          25955
+    Length:          7
+    ReplacementText: 'block[2]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          26055
+    Length:          356
+    ReplacementText: "{\\\n  dpct::has_capability_or_fail(stream->get_device(), {sycl::aspect::fp16});\\\n\\\n  stream->submit(\\\n    [&](sycl::handler &cgh) {\\\n      sycl::local_accessor<uint8_t, 1> dpct_local_acc_ct1(sycl::range<1>(shared_memory_size), cgh);\\\n\\\n      const sycl::half2 * query_ct0 = query;\\\n      const sycl::half2 * key_ct1 = key;\\\n      const sycl::half2 * value_ct2 = value;\\\n      const sycl::half * atten_mask_ct3 = atten_mask;\\\n      const sycl::half * qk_buf_ct4 = qk_buf;\\\n      const sycl::half * attention_bias_ct5 = attention_bias;\\\n      sycl::half * attention_output_ct6 = attention_output;\\\n      const int seq_len_ct7 = seq_len;\\\n      const float scale_ct8 = scale;\\\n\\\n      cgh.parallel_for(\\\n        sycl::nd_range<3>(grid * block, block), \\\n        [=](sycl::nd_item<3> item_ct1) [[intel::reqd_sub_group_size(32)]] {\\\n          variety_wmma_attention_long_kernel<SEQ_LEN, SIZE_PER_HEAD, SPLIT_LEN>(query_ct0, key_ct1, value_ct2, atten_mask_ct3, qk_buf_ct4, attention_bias_ct5, attention_output_ct6, seq_len_ct7, scale_ct8, item_ct1, dpct_local_acc_ct1.get_multi_ptr<sycl::access::decorated::no>().get());\\\n        });\\\n    });\\\n}"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          26413
+    Length:          0
+    ReplacementText: "/*\nDPCT1049:183: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n/*\nDPCT1026:384: The call to cudaFuncSetAttribute was removed because SYCL currently does not support corresponding setting.\n*/\n"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          26917
+    Length:          259
+    ReplacementText: ''
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27215
+    Length:          6
+    ReplacementText: 'grid[2]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27234
+    Length:          6
+    ReplacementText: 'grid[1]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27282
+    Length:          6
+    ReplacementText: 'grid[0]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27315
+    Length:          7
+    ReplacementText: 'block[2]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27415
+    Length:          367
+    ReplacementText: "{\\\n  dpct::has_capability_or_fail(stream->get_device(), {sycl::aspect::fp16});\\\n\\\n  stream->submit(\\\n    [&](sycl::handler &cgh) {\\\n      sycl::local_accessor<uint8_t, 1> dpct_local_acc_ct1(sycl::range<1>(shared_memory_size), cgh);\\\n\\\n      const sycl::half2 * query_ct0 = query;\\\n      const sycl::half2 * key_ct1 = key;\\\n      const sycl::half2 * value_ct2 = value;\\\n      const sycl::half * atten_mask_ct3 = atten_mask;\\\n      const sycl::half * qk_buf_ct4 = qk_buf;\\\n      const sycl::half * attention_bias_ct5 = attention_bias;\\\n      sycl::half * attention_output_ct6 = attention_output;\\\n      const int seq_len_ct7 = seq_len;\\\n      const float scale_ct8 = scale;\\\n      const int * batch_idx_ct9 = batch_idx;\\\n\\\n      cgh.parallel_for(\\\n        sycl::nd_range<3>(grid * block, block), \\\n        [=](sycl::nd_item<3> item_ct1) [[intel::reqd_sub_group_size(32)]] {\\\n          variety_wmma_attention_long_rm_kernel<SEQ_LEN, SIZE_PER_HEAD, SPLIT_LEN>(query_ct0, key_ct1, value_ct2, atten_mask_ct3, qk_buf_ct4, attention_bias_ct5, attention_output_ct6, seq_len_ct7, scale_ct8, batch_idx_ct9, item_ct1, dpct_local_acc_ct1.get_multi_ptr<sycl::access::decorated::no>().get());\\\n        });\\\n    });\\\n}"
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: true
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27807
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27827
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27845
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27882
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27908
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27930
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          27971
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28094
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28153
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28163
+    Length:          20
+    ReplacementText: 1, batch_size, head_num
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28191
+    Length:          0
+    ReplacementText: '(1, 1, 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28195
+    Length:          7
+    ReplacementText: 'block[2]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28234
+    Length:          47
+    ReplacementText: 'std::max(((seq_len + 15) / 16), size_per_head_ / 16)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28588
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28608
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28626
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28666
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28692
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28714
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28758
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28884
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28984
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          28994
+    Length:          20
+    ReplacementText: 1, batch_size, head_num
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29022
+    Length:          0
+    ReplacementText: '(1, 1, 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29026
+    Length:          7
+    ReplacementText: 'block[2]'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29065
+    Length:          47
+    ReplacementText: 'std::max(((seq_len + 15) / 16), size_per_head_ / 16)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29436
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29456
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29474
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29516
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29542
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29564
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29610
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29738
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29763
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29772
+    Length:          0
+    ReplacementText: '(1, 1, 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          29779
+    Length:          0
+    ReplacementText: '(1, 1, 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31497
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31517
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31535
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31580
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31606
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31653
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31677
+    Length:          6
+    ReplacementText: 'sycl::half'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31833
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31880
+    Length:          4
+    ReplacementText: 'sycl::range<3>'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31889
+    Length:          0
+    ReplacementText: '(1, 1, 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          31896
+    Length:          0
+    ReplacementText: '(1, 1, 1)'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          34021
+    Length:          12
+    ReplacementText: 'dpct::queue_ptr'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          34462
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          34484
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          34503
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          34523
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          34542
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Offset:          34564
+    Length:          5
+    ReplacementText: 'sycl::half2'
+    ConstantFlag:    ''
+    ConstantOffset:  0
+    InitStr:         ''
+    NewHostVarName:  ''
+    BlockLevelFormatFlag: false
+MainSourceFilesDigest:
+  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/include/variety_attention_fused.h'
+    Digest:          e2c64dcbef8f53d3b65627a5991052c1
+DpctVersion:     2024.1.0
+MainHelperFileName: ''
+USMLevel:        ''
+FeatureMap:      {}
+CompileTargets:  {}
+OptionMap:
+  AnalysisScopePath:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/bytetransformer'
+    Specified:       true
+  AsyncHandler:
+    Value:           'false'
+    Specified:       false
+  BuildScript:
+    Value:           '0'
+    Specified:       false
+  CodePinEnabled:
+    Value:           'false'
+    Specified:       false
+  CommentsEnabled:
+    Value:           'false'
+    Specified:       false
+  CompilationsDir:
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/dpct'
+    Specified:       true
+  CtadEnabled:
+    Value:           'false'
+    Specified:       false
+  EnablepProfiling:
+    Value:           'false'
+    Specified:       false
+  ExperimentalFlag:
+    Value:           '0'
+    Specified:       false
+  ExplicitNamespace:
+    Value:           '20'
+    Specified:       false
+  ExtensionDDFlag:
+    Value:           '0'
+    Specified:       false
+  ExtensionDEFlag:
+    Value:           '4294967295'
+    Specified:       false
+  HelperFuncPreferenceFlag:
+    Value:           '0'
+    Specified:       false
+  NDRangeDim:
+    Value:           '3'
+    Specified:       false
+  NoDRYPattern:
+    Value:           'false'
+    Specified:       false
+  OptimizeMigration:
+    Value:           'false'
+    Specified:       false
+  ProcessAll:
+    Value:           'false'
+    Specified:       false
+  RuleFile:
+    Value:           ''
+    Specified:       false
+  SyclNamedLambda:
+    Value:           'false'
+    Specified:       false
+  UsmLevel:
+    Value:           '1'
+    Specified:       false
+...

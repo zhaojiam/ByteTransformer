@@ -22,7 +22,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          1216
     Length:          10
-    ReplacementText: "/*\nDPCT1110:416: The total declared local variable size in device function wmma_attention_kernel_16 exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
+    ReplacementText: "/*\nDPCT1110:218: The total declared local variable size in device function wmma_attention_kernel_16 exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -184,7 +184,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          2259
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:765: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:516: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -211,7 +211,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          2315
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:766: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:517: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -238,7 +238,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          2635
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:767: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:518: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -265,7 +265,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          2708
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:768: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:519: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -292,7 +292,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          2803
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:771: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:522: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -301,7 +301,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          2859
     Length:          0
-    ReplacementText: "    /*\n    DPCT1082:417: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:418: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:419: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1082:219: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:220: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:221: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -337,7 +337,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          3316
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:438: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:240: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -346,7 +346,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          3449
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:439: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:241: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -355,7 +355,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          3548
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:426: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:228: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -364,7 +364,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          3606
     Length:          0
-    ReplacementText: "    /*\n    DPCT1007:437: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1007:239: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -373,7 +373,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          3769
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:772: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:523: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -382,7 +382,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          4150
     Length:          0
-    ReplacementText: "            /*\n            DPCT1098:775: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n            */\n"
+    ReplacementText: "            /*\n            DPCT1098:526: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n            */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -454,7 +454,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          4842
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:769: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:520: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -490,7 +490,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          5137
     Length:          0
-    ReplacementText: "        /*\n        DPCT1098:770: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
+    ReplacementText: "        /*\n        DPCT1098:521: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -508,7 +508,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          5372
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:773: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:524: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -517,7 +517,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          5426
     Length:          0
-    ReplacementText: "    /*\n    DPCT1082:427: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:428: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:429: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1082:229: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:230: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:231: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -553,7 +553,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          5864
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:441: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:243: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -562,7 +562,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          6001
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:442: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:244: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -571,7 +571,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          6100
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:436: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:238: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -580,7 +580,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          6165
     Length:          0
-    ReplacementText: "    /*\n    DPCT1007:440: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1007:242: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -589,7 +589,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          6329
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:774: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:525: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -616,7 +616,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          6676
     Length:          10
-    ReplacementText: "/*\nDPCT1110:443: The total declared local variable size in device function wmma_attention_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
+    ReplacementText: "/*\nDPCT1110:245: The total declared local variable size in device function wmma_attention_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -760,7 +760,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          7607
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:776: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:527: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -787,7 +787,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          7657
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:777: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:528: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -814,7 +814,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          7949
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:778: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:529: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -841,7 +841,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          8022
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:779: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:530: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -868,7 +868,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          8116
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:782: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:533: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -877,7 +877,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          8172
     Length:          0
-    ReplacementText: "    /*\n    DPCT1082:444: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:445: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:446: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1082:246: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:247: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:248: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -913,7 +913,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          8629
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:465: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:267: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -922,7 +922,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          8762
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:466: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:268: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -931,7 +931,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          8861
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:453: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:255: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -940,7 +940,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          8919
     Length:          0
-    ReplacementText: "    /*\n    DPCT1007:464: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1007:266: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -949,7 +949,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          9081
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:783: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:534: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -958,7 +958,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          9112
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:780: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:531: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -985,7 +985,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          9533
     Length:          0
-    ReplacementText: "            /*\n            DPCT1098:786: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n            */\n"
+    ReplacementText: "            /*\n            DPCT1098:537: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n            */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1066,7 +1066,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          10351
     Length:          0
-    ReplacementText: "        /*\n        DPCT1098:781: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
+    ReplacementText: "        /*\n        DPCT1098:532: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1084,7 +1084,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          10570
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:784: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:535: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1093,7 +1093,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          10631
     Length:          0
-    ReplacementText: "    /*\n    DPCT1082:454: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:455: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:456: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1082:256: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:257: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:258: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1129,7 +1129,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          11096
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:468: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:270: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1138,7 +1138,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          11233
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:469: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:271: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1147,7 +1147,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          11332
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:463: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:265: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1156,7 +1156,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          11397
     Length:          0
-    ReplacementText: "    /*\n    DPCT1007:467: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1007:269: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1165,7 +1165,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          11561
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:785: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:536: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1192,7 +1192,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          11886
     Length:          10
-    ReplacementText: "/*\nDPCT1110:470: The total declared local variable size in device function wmma_attention_rm_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
+    ReplacementText: "/*\nDPCT1110:272: The total declared local variable size in device function wmma_attention_rm_kernel exceeds 128 bytes and may cause high register pressure. Consult with your hardware vendor to find the total register size available and adjust the code, or use smaller sub-group size to avoid high register pressure.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1327,7 +1327,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          12665
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:787: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:538: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1345,7 +1345,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          12723
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:788: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:539: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1363,7 +1363,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          12927
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:789: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:540: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1390,7 +1390,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          12977
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:790: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:541: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1417,7 +1417,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          13271
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:791: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:542: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1444,7 +1444,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          13344
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:792: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:543: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1471,7 +1471,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          13438
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:795: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:546: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1480,7 +1480,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          13494
     Length:          0
-    ReplacementText: "    /*\n    DPCT1082:471: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:472: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:473: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1082:273: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:274: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:275: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1516,7 +1516,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          13951
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:492: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:294: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1525,7 +1525,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          14084
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:493: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:295: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1534,7 +1534,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          14183
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:480: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:282: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1543,7 +1543,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          14241
     Length:          0
-    ReplacementText: "    /*\n    DPCT1007:491: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1007:293: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1552,7 +1552,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          14403
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:796: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:547: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1561,7 +1561,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          14434
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:793: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:544: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1651,7 +1651,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          15476
     Length:          0
-    ReplacementText: "        /*\n        DPCT1098:794: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
+    ReplacementText: "        /*\n        DPCT1098:545: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1669,7 +1669,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          15701
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:797: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:548: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1678,7 +1678,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          15762
     Length:          0
-    ReplacementText: "    /*\n    DPCT1082:481: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:482: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:483: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1082:283: Migration of nvcuda::wmma::fragment<wmma::matrix_a, 16, 16, 16, half, wmma::row_major> type is not supported.\n    */\n    /*\n    DPCT1082:284: Migration of nvcuda::wmma::matrix_a type is not supported.\n    */\n    /*\n    DPCT1082:285: Migration of nvcuda::wmma::row_major type is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1714,7 +1714,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          16227
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:495: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:297: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1723,7 +1723,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          16364
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:496: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:298: Migration of nvcuda::wmma::load_matrix_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1732,7 +1732,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          16463
     Length:          0
-    ReplacementText: "      /*\n      DPCT1007:490: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1007:292: Migration of nvcuda::wmma::mma_sync is not supported.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1741,7 +1741,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          16528
     Length:          0
-    ReplacementText: "    /*\n    DPCT1007:494: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1007:296: Migration of nvcuda::wmma::store_matrix_sync is not supported.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1750,7 +1750,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          16692
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:798: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:549: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1777,7 +1777,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          16961
     Length:          0
-    ReplacementText: "/*\nDPCT1049:498: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
+    ReplacementText: "/*\nDPCT1049:300: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1795,7 +1795,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          17245
     Length:          0
-    ReplacementText: "/*\nDPCT1049:497: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
+    ReplacementText: "/*\nDPCT1049:299: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -1813,7 +1813,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Offset:          17523
     Length:          0
-    ReplacementText: "/*\nDPCT1049:499: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
+    ReplacementText: "/*\nDPCT1049:301: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2209,7 +2209,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          2581
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:516: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:309: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2236,7 +2236,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          2867
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:517: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:310: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2263,7 +2263,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          2962
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:518: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:311: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2290,7 +2290,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          3254
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:519: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:312: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2317,7 +2317,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          3348
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:522: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:315: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2398,7 +2398,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          4313
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:523: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:316: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2407,7 +2407,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          4700
     Length:          0
-    ReplacementText: "            /*\n            DPCT1098:526: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n            */\n"
+    ReplacementText: "            /*\n            DPCT1098:319: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n            */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2479,7 +2479,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          5397
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:520: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:313: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2515,7 +2515,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          5664
     Length:          0
-    ReplacementText: "        /*\n        DPCT1098:521: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
+    ReplacementText: "        /*\n        DPCT1098:314: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2533,7 +2533,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          5883
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:524: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:317: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2614,7 +2614,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          6874
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:525: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:318: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2803,7 +2803,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          8402
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:527: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:320: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2821,7 +2821,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          8464
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:528: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:321: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2857,7 +2857,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          8936
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:529: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:322: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2884,7 +2884,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          9222
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:530: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:323: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2911,7 +2911,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          9317
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:531: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:324: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2938,7 +2938,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          9615
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:532: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:325: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -2965,7 +2965,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          9709
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:535: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:328: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3046,7 +3046,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          10773
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:536: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:329: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3109,7 +3109,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          11658
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:533: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:326: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3145,7 +3145,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          11931
     Length:          0
-    ReplacementText: "        /*\n        DPCT1098:534: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
+    ReplacementText: "        /*\n        DPCT1098:327: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3163,7 +3163,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          12162
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:537: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:330: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3244,7 +3244,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          13170
     Length:          15
-    ReplacementText: "/*\n  DPCT1065:538: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
+    ReplacementText: "/*\n  DPCT1065:331: Consider replacing sycl::nd_item::barrier() with sycl::nd_item::barrier(sycl::access::fence_space::local_space) for better performance if there is no access to global memory.\n  */\n  item_ct1.barrier()"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3271,7 +3271,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          13669
     Length:          0
-    ReplacementText: "/*\nDPCT1049:55: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n/*\nDPCT1026:511: The call to cudaFuncSetAttribute was removed because SYCL currently does not support corresponding setting.\n*/\n"
+    ReplacementText: "/*\nDPCT1049:55: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n/*\nDPCT1026:304: The call to cudaFuncSetAttribute was removed because SYCL currently does not support corresponding setting.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3298,7 +3298,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused_long.cu'
     Offset:          14887
     Length:          0
-    ReplacementText: "/*\nDPCT1049:56: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n/*\nDPCT1026:512: The call to cudaFuncSetAttribute was removed because SYCL currently does not support corresponding setting.\n*/\n"
+    ReplacementText: "/*\nDPCT1049:56: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n*/\n/*\nDPCT1026:305: The call to cudaFuncSetAttribute was removed because SYCL currently does not support corresponding setting.\n*/\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3532,7 +3532,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused.cu'
     Offset:          2443
     Length:          0
-    ReplacementText: "    /*\n    DPCT1049:355: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1049:184: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3559,7 +3559,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused.cu'
     Offset:          2789
     Length:          0
-    ReplacementText: "    /*\n    DPCT1049:356: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1049:185: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3712,7 +3712,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused.cu'
     Offset:          4719
     Length:          0
-    ReplacementText: "      /*\n      DPCT1049:357: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1049:186: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3739,7 +3739,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused.cu'
     Offset:          4960
     Length:          0
-    ReplacementText: "      /*\n      DPCT1049:358: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1049:187: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3883,7 +3883,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          1646
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:803: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:554: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3946,7 +3946,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          1799
     Length:          0
-    ReplacementText: "         /*\n         DPCT1098:804: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n         */\n"
+    ReplacementText: "         /*\n         DPCT1098:555: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n         */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -3991,7 +3991,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          1934
     Length:          0
-    ReplacementText: "         /*\n         DPCT1098:805: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n         */\n"
+    ReplacementText: "         /*\n         DPCT1098:556: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n         */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -4486,7 +4486,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          3536
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:806: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:807: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:557: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:558: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -4765,7 +4765,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          5291
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:812: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:563: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -4783,7 +4783,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          5349
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:813: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:564: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -4819,7 +4819,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          5534
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:814: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:565: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -4882,7 +4882,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          5691
     Length:          0
-    ReplacementText: "           /*\n           DPCT1098:815: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n           */\n"
+    ReplacementText: "           /*\n           DPCT1098:566: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n           */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -4927,7 +4927,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          5830
     Length:          0
-    ReplacementText: "           /*\n           DPCT1098:816: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n           */\n"
+    ReplacementText: "           /*\n           DPCT1098:567: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n           */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -5413,7 +5413,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          7722
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:817: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:568: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -5431,7 +5431,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          7780
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:818: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:569: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -5476,7 +5476,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_nofused_utils.cu'
     Offset:          7985
     Length:          0
-    ReplacementText: "        /*\n        DPCT1098:819: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n        /*\n        DPCT1064:820: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n        */\n"
+    ReplacementText: "        /*\n        DPCT1098:570: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n        */\n        /*\n        DPCT1064:571: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n        */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -6160,7 +6160,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/bert_transformer.cu'
     Offset:          3704
     Length:          0
-    ReplacementText: "  /*\n  DPCT1012:825: Detected kernel execution time measurement pattern and generated an initial code for time measurements in SYCL. You can change the way time is measured depending on your goals.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1012:576: Detected kernel execution time measurement pattern and generated an initial code for time measurements in SYCL. You can change the way time is measured depending on your goals.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -6286,7 +6286,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/cutlass_attention.cu'
     Offset:          9806
     Length:          0
-    ReplacementText: "      /*\n      DPCT1049:388: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1049:190: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -6313,7 +6313,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/cutlass_attention.cu'
     Offset:          10104
     Length:          0
-    ReplacementText: "      /*\n      DPCT1049:389: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1049:191: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -6718,7 +6718,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/gemm_bias_act.cu'
     Offset:          1150
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:556: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:332: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -6844,7 +6844,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/gemm_bias_act.cu'
     Offset:          1631
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:557: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:333: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -6934,7 +6934,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/gemm_bias_act.cu'
     Offset:          2050
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:558: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:334: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7024,7 +7024,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/gemm_bias_act.cu'
     Offset:          2585
     Length:          0
-    ReplacementText: "  /*\n  DPCT1049:229: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1049:58: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7069,7 +7069,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/gemm_bias_act.cu'
     Offset:          2996
     Length:          0
-    ReplacementText: "  /*\n  DPCT1049:230: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1049:59: The work-group size passed to the SYCL kernel may exceed the limit. To get the device limit, query info::device::max_work_group_size. Adjust the work-group size if needed.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7294,7 +7294,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          1169
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:691: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:442: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7429,7 +7429,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          1635
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:692: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:443: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7492,7 +7492,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          2153
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:693: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:444: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7537,7 +7537,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          2270
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:694: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:445: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7627,7 +7627,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          2801
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:695: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:446: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7672,7 +7672,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          2926
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:696: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:447: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7771,7 +7771,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          3460
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:697: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:448: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -7924,7 +7924,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          4040
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:698: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:449: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8005,7 +8005,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          4684
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:701: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:452: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8023,7 +8023,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          4740
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:702: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:453: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8068,7 +8068,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          5026
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:703: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:454: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8203,7 +8203,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          5588
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:704: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:455: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8221,7 +8221,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          5644
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:705: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:456: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8347,7 +8347,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          6709
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:709: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:460: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8482,7 +8482,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          7333
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:710: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:461: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8572,7 +8572,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          8068
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:713: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:464: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8698,7 +8698,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          8609
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:714: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:716: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:717: Migrated __hadd2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:718: Migrated __hmul2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:465: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:467: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:468: Migrated __hadd2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:469: Migrated __hmul2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8779,7 +8779,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          9288
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:719: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:470: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8797,7 +8797,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          9344
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:720: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:471: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8842,7 +8842,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          9630
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:721: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:472: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8977,7 +8977,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          10198
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:722: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:473: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -8995,7 +8995,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          10254
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:723: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:474: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9040,7 +9040,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          10539
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:724: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n  /*\n  DPCT1064:728: Migrated __hadd2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n  */\n  /*\n  DPCT1064:729: Migrated __hmul2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:475: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n  /*\n  DPCT1064:479: Migrated __hadd2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n  */\n  /*\n  DPCT1064:480: Migrated __hmul2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9130,7 +9130,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          11362
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:730: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:481: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9265,7 +9265,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/layernorm.cu'
     Offset:          12015
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:731: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:733: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:734: Migrated __hadd2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:735: Migrated __hmul2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:482: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:484: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:485: Migrated __hadd2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n      /*\n      DPCT1064:486: Migrated __hmul2 call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9373,7 +9373,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          1168
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:739: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:490: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9526,7 +9526,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          1589
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:740: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:741: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:491: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n      /*\n      DPCT1064:492: Migrated __ldg call is used in a macro/template definition and may not be valid for all macro/template uses. Adjust the code.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9580,7 +9580,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          2136
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:742: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:493: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9598,7 +9598,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          2192
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:743: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:494: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9661,7 +9661,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          2576
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:744: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:495: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9823,7 +9823,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          3254
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:745: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:496: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9841,7 +9841,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          3310
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:746: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:497: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -9949,7 +9949,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          4009
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:749: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:500: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10102,7 +10102,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          4449
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:750: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:501: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10156,7 +10156,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          5058
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:755: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:506: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10174,7 +10174,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          5114
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:756: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:507: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10237,7 +10237,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          5498
     Length:          0
-    ReplacementText: "    /*\n    DPCT1098:757: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
+    ReplacementText: "    /*\n    DPCT1098:508: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n    */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10408,7 +10408,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          6272
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:758: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:509: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10426,7 +10426,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          6328
     Length:          0
-    ReplacementText: "  /*\n  DPCT1098:759: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
+    ReplacementText: "  /*\n  DPCT1098:510: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n  */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10480,7 +10480,7 @@ Replacements:
   - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/remove_padding.cu'
     Offset:          6645
     Length:          0
-    ReplacementText: "      /*\n      DPCT1098:760: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
+    ReplacementText: "      /*\n      DPCT1098:511: The '*' expression is used instead of the __ldg call. These two expressions do not provide the exact same functionality. Check the generated code for potential precision and/or performance issues.\n      */\n"
     ConstantFlag:    ''
     ConstantOffset:  0
     InitStr:         ''
@@ -10513,132 +10513,6 @@ Replacements:
     InitStr:         ''
     NewHostVarName:  ''
     BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          864
-    Length:          0
-    ReplacementText: "#include <sycl/sycl.hpp>\n#include <dpct/dpct.hpp>\n"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          1013
-    Length:          6
-    ReplacementText: 'sycl::half'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          1202
-    Length:          0
-    ReplacementText: "\n  dpct::device_ext &dev_ct1 = dpct::get_current_device();"
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          1846
-    Length:          21
-    ReplacementText: 'dpct::device_info'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          1876
-    Length:          33
-    ReplacementText: 'dpct::get_device_info(prop, dpct::dev_mgr::instance().get_device(0))'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          1940
-    Length:          4
-    ReplacementText: 'get_name()'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          1950
-    Length:          12
-    ReplacementText: 'dpct::queue_ptr'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          1990
-    Length:          25
-    ReplacementText: 'DPCT_CHECK_ERROR(stream = dev_ct1.create_queue())'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          2020
-    Length:          14
-    ReplacementText: 'dpct::queue_ptr'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          2069
-    Length:          28
-    ReplacementText: 'DPCT_CHECK_ERROR(cublas_handle = &dpct::get_in_order_queue())'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          2119
-    Length:          38
-    ReplacementText: 'DPCT_CHECK_ERROR(cublas_handle = stream)'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          5295
-    Length:          6
-    ReplacementText: 'sycl::half'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          7777
-    Length:          23
-    ReplacementText: 'dev_ct1.queues_wait_and_throw()'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
-  - FilePath:        '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Offset:          7931
-    Length:          23
-    ReplacementText: 'dev_ct1.queues_wait_and_throw()'
-    ConstantFlag:    ''
-    ConstantOffset:  0
-    InitStr:         ''
-    NewHostVarName:  ''
-    BlockLevelFormatFlag: false
 MainSourceFilesDigest:
   - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/src/attention_fused.cu'
     Digest:          d3be94ce779fb8ffd009476a62243184
@@ -10662,8 +10536,6 @@ MainSourceFilesDigest:
     Digest:          6f0458412c90d452cbfd80d5c9a73c42
   - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/bytetransformer/th_op/ths_op_f.cc'
     Digest:          53b866459dc758ca2b6b906e98c55a5f
-  - MainSourceFile:  '/export/users/zhaojiam/src/ByteTransformer/unit_test/bert_transformer_test.cc'
-    Digest:          ccc197533a6b701bbb79c7db428e0e15
 DpctVersion:     2024.1.0
 MainHelperFileName: ''
 USMLevel:        ''
@@ -10671,8 +10543,8 @@ FeatureMap:      {}
 CompileTargets:  {}
 OptionMap:
   AnalysisScopePath:
-    Value:           '/export/users/zhaojiam/src/ByteTransformer'
-    Specified:       false
+    Value:           '/export/users/zhaojiam/src/ByteTransformer/bytetransformer'
+    Specified:       true
   AsyncHandler:
     Value:           'false'
     Specified:       false
