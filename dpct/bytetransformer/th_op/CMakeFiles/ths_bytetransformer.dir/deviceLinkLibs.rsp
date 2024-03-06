@@ -1,1 +1,0 @@
-  -L/usr/local/cuda/lib  -L/usr/local/cuda/lib64  -L/lib/intel64  -L/lib/intel64_win  -L"/lib/win-x64"   -lcublas -lcudart -lcublasLt 

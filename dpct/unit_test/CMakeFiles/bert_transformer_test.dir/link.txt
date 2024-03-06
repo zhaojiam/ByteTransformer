@@ -1,1 +1,0 @@
-/usr/bin/c++   -DFP16 -O3 CMakeFiles/bert_transformer_test.dir/bert_transformer_test.cc.o -o ../bin/bert_transformer_test   -L/usr/local/cuda/lib  -L/usr/local/cuda/lib64  -Wl,-rpath,/usr/local/cuda/lib:/usr/local/cuda/lib64:/export/users/zhaojiam/src/ByteTransformer/dpct/lib -lcublas -lcudart ../lib/libbytetransformer.so -lcublas -lcudart
